@@ -63,3 +63,7 @@ p {
   border-bottom-right-radius: 0.5rem;
   background: teal;
 }
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+}

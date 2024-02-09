@@ -7,11 +7,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 const Booklist = () => {
   return (
-    <section className="booklist">
-      {books.map((book, index) => {
-        return <Book {...book} key={book.id} number={index}></Book>
-      })}
-    </section>
+    <>
+      <h1>Amazon bestsellers</h1>
+      <section className="booklist">
+        {books.map((book, index) => {
+          return <Book {...book} key={book.id} number={index}></Book>
+        })}
+      </section>
+    </>
   )
 }
 
